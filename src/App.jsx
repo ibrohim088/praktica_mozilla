@@ -3,6 +3,7 @@ import { Routes , Route } from 'react-router-dom'
 import Navbar from './componets/Navbar'
 import Footer from './componets/Footer'
 import Header from './componets/Header'
+import Section from './componets/Section'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
     <>
     <Header/>
     <Navbar/>
+    <Section/>
      <Routes>
       <Route/>
      </Routes>

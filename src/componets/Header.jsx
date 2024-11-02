@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const Header = () => { 
   const [showDropdown, setShowDropdown] = useState(false);
   const [productDropdown, setProductDropdown] = useState(false);
   const [whoDropdown, setWhoDropdown] = useState(false);
@@ -49,28 +49,28 @@ const Header = () => {
           <div className="flex gap-[37px] items-center font-bold text-[16px] pl-10">
             <p
               onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
+              onMouseUp={handleMouseLeave}
               className="hover:border-b-[3px] ease-out duration-75 text-center h-8 border-black"
             >
               Браузеры Firefox
             </p>
             <p
               onMouseEnter={productMouseEnter}
-              onMouseLeave={productMouseLeave}
+              onMouseUp={productMouseLeave}
               className="hover:border-b-[3px] ease-out duration-75 text-center h-8 border-black"
             >
               Продукты
             </p>
             <p
               onMouseEnter={whoMouseEnter}
-              onMouseLeave={whoMouseLeave}
+              onMouseUp={whoMouseLeave}
               className="hover:border-b-[3px] ease-out duration-75 text-center h-8 border-black"
             >
               Кто мы
             </p>
             <p
               onMouseEnter={newsMouseEnter}
-              onMouseLeave={newsMouseLeave}
+              onMouseUp={newsMouseLeave}
               className="hover:border-b-[3px] ease-out duration-75 text-center h-8 border-black"
             >
               Новшества

@@ -27,7 +27,7 @@ const Navbar = () => {
               <Link to={"/posibillities"}>Возможности</Link>
             </li>
             <li className=" hover:underline underline-offset-2">
-              <Link to={"/bourzer"}>Сравнение браузеров</Link>
+              <Link to={"/brouzer"}>Сравнение браузеров</Link>
             </li>
             <li className=" hover:underline underline-offset-2">
               <Link to={"/more"}>Больше</Link>

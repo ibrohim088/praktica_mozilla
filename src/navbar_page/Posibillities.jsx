@@ -14,7 +14,7 @@ const Posibillities = () => {
         </ul>
       </div>
       {/* 2-bolim */}
-      <div className="w-full h-[550px] flex">
+      <div className="w-full h-[550px] flex pt-20">
         {/* firefox quickli */}
         <div className="w-[663px] hover:outline outline-slate-200 outline-[3.5px] hover:underline decoration-1 rounded-md h-[500px] ml-[85px]">
           <img
@@ -54,7 +54,7 @@ const Posibillities = () => {
         </div>
       </div>
       {/* 3-bolim */}
-      <div className="w-full flex flex-wrap h-[1200px] bg-gray-600">
+      <div className="w-full flex flex-wrap h-[1200px]">
         {/* free menajment */}
         <div className="w-[400px] h-[170px] ml-[84px] rounded-md border-[1px] border-gray-400 hover:underline decoration-1 hover:border-blue-700">
           <ul className="space-y-3.5 pl-5 pt-2.5">

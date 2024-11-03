@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div>
-      <div className="bg-black w-full h-[760px]">
+    <div className="">
+      <div className="sticky bg-black w-full h-[760px]">
         <div className="">
           <div>
             <img

@@ -17,7 +17,7 @@ function App() {
       <Navbar />
       <Routes>
         {/* <Route path="section" element={<Section/>} /> */}
-        <Route path="pc" element={<Peca/>} />
+        <Route path="/" element={<Peca/>} />
         <Route path="mobil" element={<Mobile/>} />
         <Route path="posibillities" element={<Posibillities/>} />
         <Route path="brouzer" element={<Brouzer/>} />

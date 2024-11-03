@@ -4,14 +4,6 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div>
-      <div className="bg-gray-100 w-full h-[60px] font-bold text-[20px] text-center pt-3">
-        <h1 className="text-gray-700">
-          Есть вопросы? Вам поможет
-          <span className="text-blue-700 hover:text-blue-500 underline underline-offset-4 pl-2">
-            <Link to={"/tehabsloga"}>Служба поддержки Mozilla.</Link>
-          </span>
-        </h1>
-      </div>
       <div className="bg-black w-full h-[760px]">
         <div className="">
           <div>
@@ -288,20 +280,42 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div>
-                <ul className="text-white text-[13px] flex gap-10">
-                  <li className="underline ">
-                    Уведомление о конфиденциальности веб-сайта
-                  </li>
-                  <li className="underline">Куки</li>
-                  <li className="underline"> Юридическая информация</li>
-                  <li className="underline">Правила поведения в сообществе </li>
-                  <li className="underline">Об этом сайте</li>
-                </ul>
-                <ul className="text-white text-[12.5px] pt-10">
-                  <li>Посетите сайт некоммерческой материнской компании <span className="underline"> Mozilla Corporation — Mozilla Foundation</span>.</li>
-                  <li>Части этого содержимого созданы участниками проекта mozilla.org ©1998–2024. Содержимое доступно на условиях лицензии <span className="underline">Creative Commons.</span></li>
-                </ul>
+              <div className="flex">
+                <div className="w-[1050px] h-[160px] ml-[80px]">
+                  <ul className="text-white text-[13px] flex gap-6 pt-10 ">
+                    <li className="underline ">
+                      Уведомление о конфиденциальности веб-сайта
+                    </li>
+                    <li className="underline">Куки</li>
+                    <li className="underline"> Юридическая информация</li>
+                    <li className="underline">
+                      Правила поведения в сообществе{" "}
+                    </li>
+                    <li className="underline">Об этом сайте</li>
+                  </ul>
+                  <ul className="text-white text-[12.7px] pt-10">
+                    <li>
+                      Посетите сайт некоммерческой материнской компании{" "}
+                      <span className="underline">
+                        {" "}
+                        Mozilla Corporation — Mozilla Foundation
+                      </span>
+                      .
+                    </li>
+                    <li>
+                      Части этого содержимого созданы участниками проекта
+                      mozilla.org ©1998–2024. Содержимое доступно на условиях
+                      лицензии{" "}
+                      <span className="underline">Creative Commons.</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="w-[300px] text-left pl-[135px] pt-10 space-y-2">
+                  <p className="text-white underline ">Язык</p>
+                  <select name="Русский" id="Русский" className="w-[160px] h-[30px] rounded-md">
+                    Русский
+                  </select>
+                </div>
               </div>
             </div>
           </div>

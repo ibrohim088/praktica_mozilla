@@ -49,35 +49,35 @@ const Header = () => {
           <div className="flex gap-[37px] items-center font-bold text-[16px] pl-10">
             <p
               onMouseEnter={handleMouseEnter}
-              onMouseUp={handleMouseLeave}
+              onMouseLeave={handleMouseLeave}
               className="hover:border-b-[3px] ease-out duration-75 text-center h-8 border-black"
             >
               Браузеры Firefox
             </p>
             <p
               onMouseEnter={productMouseEnter}
-              onMouseUp={productMouseLeave}
+              onMouseLeave={productMouseLeave}
               className="hover:border-b-[3px] ease-out duration-75 text-center h-8 border-black"
             >
               Продукты
             </p>
             <p
               onMouseEnter={whoMouseEnter}
-              onMouseUp={whoMouseLeave}
+              onMouseLeave={whoMouseLeave}
               className="hover:border-b-[3px] ease-out duration-75 text-center h-8 border-black"
             >
               Кто мы
             </p>
             <p
               onMouseEnter={newsMouseEnter}
-              onMouseUp={newsMouseLeave}
+              onMouseLeave={newsMouseLeave}
               className="hover:border-b-[3px] ease-out duration-75 text-center h-8 border-black"
             >
               Новшества
             </p>
           </div>
         </div>
-        <button className="w-[180px] h-9 rounded-md ml-56 mt-3.5 border-[2px] border-blue-700 hover:bg-blue-700 hover:border-none">
+        <button className="w-[180px] h-9 rounded-md ml-[230px] mt-3.5 border-[2px] border-blue-700 hover:bg-blue-700 hover:border-none">
           <p className="text-blue-700 hover:text-white text-[15.6px] text-center font-bold font-mono">
             Загрузить Firefox
           </p>

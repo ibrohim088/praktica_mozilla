@@ -32,7 +32,7 @@ const Peca = () => {
             </ul>
             {/* loading firiefox */}
             <button className="w-[200px] h-[40px] ml-[140px] mt-10 text-center rounded-md bg-blue-600 hover:bg-blue-800 text-white text-[18px] font-semibold">
-              <Link to={"/loading fifrefox"}>Загрузить Firefox</Link>
+              <Link to={"/loadingFX"}>Загрузить Firefox</Link>
             </button>
             <ul className="text-gray-600 text-[14px] space-y-4 pt-6 pl-[140px]">
               <li className="">Уведомление о конфиденциальности Firefox</li>
